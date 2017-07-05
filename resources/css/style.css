@@ -1,3 +1,4 @@
+/*/cygdrive/d/codeacadamy/Freelance_web/U5 responsive design/U5D10-12_optometry*/
 html{
   font-size: 18px
   /*line-height: 1.4;*/
@@ -65,4 +66,79 @@ span{
   font-size: 2rem;
   font-weight: bold;
   margin: 1.5rem 5rem;
+}
+/*end of page top*/
+
+/*Icons*/
+.icons{
+  display: inline-flex;
+  justify-content: center;
+  width: 100%;
+  margin-top: 3rem;
+}
+.icons p{
+line-height: 1.4rem;
+align-self: center;
+text-align: center;
+}
+.icon-1, .icon-2, .icon-3{
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  align-items: center;
+  height: 8rem;
+  width: 5rem;
+}
+.icon-1, .icon-2{
+  margin-right: 6rem;
+}
+.icon-1 img{
+  width: 3.5rem;
+}
+.icon-2 img, .icon-3 img{
+  width: 90%;
+}
+.icon-2 p, .icon-3 p{
+  margin-bottom: 0px;
+}
+
+/*end icons*/
+
+/*info*/
+.info{
+  display: flex;
+  justify-content: center;
+  width: 100%;
+  margin-top: 3rem;
+  margin-bottom: 5rem;
+}
+.philosophy, .appointments{
+  width: 35%;
+}
+.philosophy{
+  margin-right: 5%;
+}
+.title{
+  font-size: 1rem;
+  font-weight: bold;
+  margin: 0.5rem auto 0.5rem 1.25rem;
+  width: 10rem;
+  background-color: cadetblue;
+}
+.article{
+
+}
+/* end info*/
+
+/*footer*/
+.footer{
+  display: flex;
+  justify-content: center;
+  width: 100%
+}
+.foot_cont{
+  background-color: inherit;
+}
+.foot_cont{
+  margin: 4rem auto 4rem 4rem;
 }
